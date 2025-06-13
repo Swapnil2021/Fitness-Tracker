@@ -15,6 +15,7 @@ export const counts = [
     unit: "kcal",
     color: "#eb9e34",
     lightColor: "#FDF4EA",
+    nameShort: "Calories",
   },
   {
     name: "Workouts",
@@ -24,6 +25,7 @@ export const counts = [
     unit: "",
     color: "#41C1A6",
     lightColor: "#E8F6F3",
+    nameShort: "Workouts",
   },
   {
     name: "Average  Calories Burned",
@@ -33,5 +35,6 @@ export const counts = [
     unit: "kcal",
     color: "#FF9AD5",
     lightColor: "#FEF3F9",
+    nameShort: "Avg Calories",
   },
 ];
