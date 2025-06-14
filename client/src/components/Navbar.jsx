@@ -152,7 +152,7 @@ const Navbar = () => {
 
         <MobileMenu isOpen={isOpen}>
           <Navlink to="/" onClick={() => setIsOpen(false)}>Dashboard</Navlink>
-          <Navlink to="/workouts" onClick={() => setIsOpen(false)}>Workouts</Navlink>
+          <Navlink to="/workout" onClick={() => setIsOpen(false)}>Workout</Navlink>
           <Navlink to="/tutorials" onClick={() => setIsOpen(false)}>Tutorials</Navlink>
           <Navlink to="/blogs" onClick={() => setIsOpen(false)}>Blogs</Navlink>
           <Navlink to="/contact" onClick={() => setIsOpen(false)}>Contact</Navlink>
@@ -160,7 +160,7 @@ const Navbar = () => {
 
         <NavItems>
           <Navlink to="/">Dashboard</Navlink>
-          <Navlink to="/workouts">Workouts</Navlink>
+          <Navlink to="/workout">Workout</Navlink>
           <Navlink to="/tutorials">Tutorials</Navlink>
           <Navlink to="/blogs">Blogs</Navlink>
           <Navlink to="/contact">Contact</Navlink>

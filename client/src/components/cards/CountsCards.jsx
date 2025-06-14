@@ -90,18 +90,17 @@ const Desc = styled.div`
   }
 `;
 
-const CountsCard = ({ item }) => {
+const CountsCard = ({ item, data }) => {
   return (
     <Card>
       <Left>
         <Title>{item.name}</Title>
         <Value>
-        1200
+        {data && data[item.key].toFixed(2)}
           <Unit>{item.unit}</Unit>
           <Span positive>(+10%)</Span>
         </Value>
         <Desc>{item.desc}</Desc>
-   
       </Left>
       <Icon color={item.color} bg={item.lightColor}>
         {item.icon}
@@ -109,5 +108,4 @@ const CountsCard = ({ item }) => {
     </Card>
   );
 };
-
 export default CountsCard;
